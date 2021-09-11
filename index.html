@@ -1,55 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Testing Environment</title>
 </head>
 <body>
-    <header id="top" style="text-align: center;">
-        <img src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20color.png?raw=true" alt="TurbaNaldo" style="width:57px;height:90px;">
-        <img src="https://github.com/RonaldoSG96/coursera-test/blob/main/site/turbanaldo%20bw.png?raw=true" alt="TurbaNaldo" style="width:57px;height:90px;">
+    <header id="top">
+        <img id="turbanaldo1" src="/turbanaldo color.png" alt="TurbaNaldo">
+        <img id="turbanaldo2" src="/turbanaldo bw.png" alt="TurbaNaldo">
             <nav style="text-align: center;">
                 <a href="https://www.geogebra.org/u/ronaldosg96" target="_blank" title="My GeoGebra"><img src="https://www.geogebra.org/resource/XUv5mXTm/Ny8UYWy5AjUl781N/material-XUv5mXTm-thumb@l.png" alt="GeoGebra Icon" style="width:52px;height:43px;"></a>
             </nav>
     </header>
-<h1 style="text-align: center;">My very own page</h1>
+<h1>My very own page</h1>
+
+<section>
+    <div>
+      <!-- Link to every section in the page -->
+      <button class="button"><span><a href="#On Browser Sync">On Browser Sync</a></span></button>
+      <button class="button"><span><a href="#On Git">On Git</a></span></button>
+      <button class="button"><span><a href="#On Coding">On Coding</a></span></button>
+      <!--<a href="#section4">#section4</a>
+      <a href="#section5">#section5</a>
+      <a href="#section6">#section6</a>-->
+      </div>
+
+  </section>
 <hr><h3 style="text-align: center;"> Some basic info and/or useful commands I&nbsp;must&nbsp;know </h3><hr>
 
-<section id="section1">
+<section id="On Browser Sync">
     <h3>Related to Browser Sync</h3>
-    To open browser sync, the required steps are:
+    <p>To open browser sync, the required steps are:</p>
     <ol>
-    <li>in your command&nbsp;prompt, use the 'dir' and 'cd' commands to navigate to your local&nbsp;repository</li>
-    <li>type browser-sync start --server --directory --files "*"</li>
+        <li class="font">in your command&nbsp;prompt, use the 'dir' and 'cd' commands to navigate to your local&nbsp;repository</li>
+        <li class="font">type browser-sync start --server --directory --files "*"</li>
     </ol>
 </section>
 <hr>
-<section id="section2">
+<section id="On Git">
     <h3>Related to Git</h3>
-    More useful commands:
+    <p>More useful commands:</p>
     <ul>
-        <li>'git status' (checking the status of the code)</li>
-        <li>'git add .' (if I recall correctly the dot means you add everything there is to be added)</li>
-        <li>'git commit -m"type your message here"' (with this you commit whatever you have previously added)</li>
-        <li>'git push' (with this you push your committed local files to the online server, thus making it available online)</li>
+        <li class="font">'git status' (checking the status of the code)</li>
+        <li class="font">'git add .' (if I recall correctly the dot means you add everything there is to be added)</li>
+        <li class="font">'git commit -m"type your message here"' (with this you commit whatever you have previously added)</li>
+        <li class="font">'git push' (with this you push your committed local files to the online server, thus making it available online)</li>
     <ul>
 </section>
 <hr>
-<section id="section3">
+<section id="On Coding">
     <h4 style="text-align: center;">Intended for some cool code testing to be gradually added below this point</h4>
     <hr>
-    <p style="text-align: center;" 
+    <button class="button"
          onclick="alert('you come here often?');">
-         CLICK ME
-    </p>
+         <b>CLICK ME</b>
+</button>
 </section>
 
-<p>
-    <a href="#top">Back to Top</a>
-</p>
+<button class="button"> <span><a href="#top">Back to Top</a></span>
+</button>
 
-<footer style="text-align: right;"> &copy; 头巾Naldo™ </footer>
+<footer> &copy; 头巾Naldo™ </footer>
 </body>
 </html>
