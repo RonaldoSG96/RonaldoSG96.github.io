@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Salsa', cursive;
 }
 
 #name {
@@ -8,7 +9,7 @@
 }
 
 body {
-    background-color: #ffff80;
+    background-color: #8099a3;
 }
 
 header {
@@ -16,11 +17,11 @@ header {
     width: 100%;
 }
 
-#turbanaldo1 {
-    float: left;
+#dawn {
+    float: right;
     width: 199px;
     border-width: 4px;
-    border-color: rgb(41, 4, 15) ;
+    border-color: rgb(3, 3, 29) ;
     border-radius: 99.5px;
     border-style: groove;
 }
@@ -32,13 +33,13 @@ h1 {
 .morse {
     text-align: center;
     font-size: 170%;
-    background-color: rgb(41, 4, 15);
-    color: rgb(41, 4, 15);
+    background-color: rgb(3, 3, 29);
+    color: rgb(3, 3, 29);
 }
 
 p.morse:hover {
     cursor: context-menu;
-    color: white;
+    color: #8099a3;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav {
 
 .nav-links {
     flex:1;
-    text-align: right;
+    text-align: left;
 }
 
 .nav-links ul li {
@@ -61,11 +62,13 @@ nav {
 }
 
 .nav-links ul li a {
-    color: rgb(41, 4, 15);
+    color: rgb(3, 3, 29);
     text-decoration: none;
+    font-size: 20px;
 }
 
 footer {
+    color: rgb(3, 3, 29);
     font-weight: 600;
     margin-right: 10px;
     margin-bottom: 10px;
