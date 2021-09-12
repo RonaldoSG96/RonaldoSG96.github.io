@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Salsa', cursive;
+}
+
+#name {
+    font-size: 30px;
+}
+
+body {
+    background-color: #8099a3;
+}
+
+header {
+    min-height: 40vh;
+    width: 100%;
+}
+
+#dawn {
+    float: right;
+    width: 199px;
+    border-width: 4px;
+    border-color: rgb(3, 3, 29) ;
+    border-radius: 99.5px;
+    border-style: groove;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.morse {
+    text-align: center;
+    font-size: 170%;
+    background-color: rgb(3, 3, 29);
+    color: rgb(3, 3, 29);
+}
+
+p.morse:hover {
+    cursor: context-menu;
+    color: #8099a3;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex:1;
+    text-align: left;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: rgb(3, 3, 29);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    color: rgb(3, 3, 29);
+    font-weight: 600;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
