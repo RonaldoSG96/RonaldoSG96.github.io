@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    background-color: #ffff80;
+}
+
 title {
     font-family: verdana;
 }
@@ -9,6 +19,7 @@ body {
 header {
     text-align: center;
 }
+
 h1 {
     color: rgb(3, 3, 29);
     text-align: center;
@@ -18,19 +29,22 @@ p {
     font-family: verdana;
 }
 
-#turbanaldo1, #turbanaldo2 {
+#turbanaldo1 {
+    margin-top: 1px;
+    margin-left: 1px;
     width: 57px;
     height: 90px;
+    float: left;
 }
 
-li.font {
-    font-family: verdana;
-    margin: 12px;
+#turbanaldo2 {
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 57px;
+    height: 90px;
+    float: right;
 }
 
-li.bold {
-    font-weight: bold;
-}
 
 .button {
     /* background-color: #200f03; */

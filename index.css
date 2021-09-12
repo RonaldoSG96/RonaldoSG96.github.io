@@ -28,6 +28,7 @@ h1 {
 }
 
 .morse {
+    text-align: center;
     font-size: 170%;
     background-color: rgb(41, 4, 15);
     color: rgb(41, 4, 15);
