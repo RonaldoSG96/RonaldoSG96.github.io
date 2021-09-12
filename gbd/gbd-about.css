@@ -17,6 +17,10 @@ header {
     width: 100%;
 }
 
+h1 {
+    text-align: center;
+}
+
 #dawn {
     float: right;
     width: 199px;
